@@ -8,13 +8,13 @@
 Summary:	Logs to MySQL
 Name:		apache-%{mod_name}
 Version:	1.101
-Release:	%mkrel 2
+Release:	%mkrel 3
 Group:		System/Servers
 License:	Apache License
 URL:		http://www.outoforder.cc/projects/apache/mod_log_sql/
 Source0: 	%{mod_name}-%{version}.tar.bz2
 Source1:	%{mod_conf}
-BuildRequires:	MySQL-devel
+BuildRequires:	mysql-devel
 #BuildRequires:	openssl-devel
 Requires(pre): rpm-helper
 Requires(postun): rpm-helper
@@ -24,8 +24,6 @@ Requires:	apache-conf >= 2.0.54
 Requires:	apache >= %{apache_version}
 BuildRequires:	apache-devel >= %{apache_version}
 BuildRequires:	file
-Provides:	apache2-mod_log_sql
-Obsoletes:	apache2-mod_log_sql
 Epoch:		1
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
