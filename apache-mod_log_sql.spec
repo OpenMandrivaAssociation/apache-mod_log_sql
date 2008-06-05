@@ -25,7 +25,7 @@ Requires:	apache >= %{apache_version}
 BuildRequires:	apache-devel >= %{apache_version}
 BuildRequires:	file
 Epoch:		1
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 mod_log_sql offers Apache administrators the ability to log accesses
