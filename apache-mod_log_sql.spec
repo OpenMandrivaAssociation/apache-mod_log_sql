@@ -8,7 +8,7 @@
 Summary:	Logs to MySQL
 Name:		apache-%{mod_name}
 Version:	1.101
-Release:	%mkrel 5
+Release:	%mkrel 6
 Group:		System/Servers
 License:	Apache License
 URL:		http://www.outoforder.cc/projects/apache/mod_log_sql/
