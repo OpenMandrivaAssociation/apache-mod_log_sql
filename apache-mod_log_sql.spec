@@ -11,7 +11,7 @@ Version:	1.101
 Release:	%mkrel 16
 Group:		System/Servers
 License:	Apache License
-URL:		http://www.outoforder.cc/projects/apache/mod_log_sql/
+URL:		https://www.outoforder.cc/projects/apache/mod_log_sql/
 Source0: 	%{mod_name}-%{version}.tar.bz2
 Source1:	%{mod_conf}
 BuildRequires:	mysql-devel
