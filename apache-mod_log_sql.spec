@@ -14,6 +14,11 @@ License:	Apache License
 URL:		https://www.outoforder.cc/projects/apache/mod_log_sql/
 Source0: 	%{mod_name}-%{version}.tar.bz2
 Source1:	%{mod_conf}
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	mysql-devel
 #BuildRequires:	openssl-devel
 Requires(pre): rpm-helper
